@@ -1,6 +1,7 @@
 package structure.json;
 
 public class GameJSON {
+    private int id;
     private String publisher;
     private String title;
     private int releaseYear;
@@ -45,6 +46,14 @@ public class GameJSON {
 
     public void setDetails(DetailsJSON details) {
         this.details = details;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }
 

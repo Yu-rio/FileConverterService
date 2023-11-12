@@ -48,6 +48,7 @@ public class XMLToJSONConverter{
 
             }
             GameJSON gameJSON = new GameJSON();
+            gameJSON.setId(gameXML.getId());
             gameJSON.setTitle(gameXML.getTitle());
             gameJSON.setPublisher(gameXML.getPublisher());
             gameJSON.setReleaseYear(gameXML.getReleaseYear());
