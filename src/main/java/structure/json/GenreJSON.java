@@ -1,4 +1,4 @@
-package structure;
+package structure.json;
 
 import java.util.List;
 

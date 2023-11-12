@@ -1,4 +1,4 @@
-package structure;
+package structure.json;
 
 public class GameJSON {
     private String publisher;

@@ -1,4 +1,4 @@
-package structure;
+package structure.xml;
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 

@@ -1,4 +1,4 @@
-package structure;
+package structure.xml;
 
 import java.util.List;
 

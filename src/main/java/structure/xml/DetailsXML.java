@@ -1,9 +1,10 @@
-package structure;
+package structure.xml;
 
 import java.util.List;
 
-public class DetailsJSON {
+public class DetailsXML {
     private String developer;
+    private String genre;
     private List<String> platforms;
 
     public String getDeveloper() {
@@ -12,6 +13,14 @@ public class DetailsJSON {
 
     public void setDeveloper(String developer) {
         this.developer = developer;
+    }
+
+    public String getGenre() {
+        return genre;
+    }
+
+    public void setGenre(String genre) {
+        this.genre = genre;
     }
 
     public List<String> getPlatforms() {
