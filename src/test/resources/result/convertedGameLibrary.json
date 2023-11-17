@@ -1,0 +1,103 @@
+{
+  "genres" : [ {
+    "genre" : {
+      "name" : "Action RPG",
+      "games" : [ {
+        "id" : 0,
+        "publisher" : "Supergiant Games",
+        "title" : "Hades",
+        "releaseYear" : 2020,
+        "engine" : "MonoGame",
+        "details" : {
+          "developer" : "Supergiant Games",
+          "platforms" : [ "PC", "Nintendo Switch", "PlayStation", "Xbox" ]
+        }
+      } ]
+    }
+  }, {
+    "genre" : {
+      "name" : "First-Person Shooter",
+      "games" : [ {
+        "id" : 1,
+        "publisher" : "Electronic Arts",
+        "title" : "Titanfall 2",
+        "releaseYear" : 2016,
+        "engine" : "Source",
+        "details" : {
+          "developer" : "Respawn Entertainment",
+          "platforms" : [ "PC", "PlayStation", "Xbox" ]
+        }
+      }, {
+        "id" : 2,
+        "publisher" : "Blizzard Entertainment",
+        "title" : "Overwatch",
+        "releaseYear" : 2016,
+        "engine" : "Tank Engine",
+        "details" : {
+          "developer" : "Blizzard Entertainment",
+          "platforms" : [ "PC", "PlayStation", "Xbox" ]
+        }
+      }, {
+        "id" : 7,
+        "publisher" : "Annapurna Interactive",
+        "title" : "Neon White",
+        "releaseYear" : 2022,
+        "engine" : "Unity",
+        "details" : {
+          "developer" : "Angel Matrix",
+          "platforms" : [ "PC", "Nintendo Switch", "PlayStation", "Xbox" ]
+        }
+      } ]
+    }
+  }, {
+    "genre" : {
+      "name" : "RPG",
+      "games" : [ {
+        "id" : 3,
+        "publisher" : "ZA/UM",
+        "title" : "Disco Elysium",
+        "releaseYear" : 2019,
+        "engine" : "Unity",
+        "details" : {
+          "developer" : "ZA/UM",
+          "platforms" : [ "PC", "PlayStation", "Xbox" ]
+        }
+      }, {
+        "id" : 5,
+        "publisher" : "tinyBuild",
+        "title" : "Pathologic 2",
+        "releaseYear" : 2019,
+        "engine" : "Unity",
+        "details" : {
+          "developer" : "Ice-Pick Lodge",
+          "platforms" : [ "PC", "PlayStation", "Xbox" ]
+        }
+      } ]
+    }
+  }, {
+    "genre" : {
+      "name" : "Action-Adventure",
+      "games" : [ {
+        "id" : 4,
+        "publisher" : "Ubisoft",
+        "title" : "Assassin's Creed Unity",
+        "releaseYear" : 2014,
+        "engine" : "Anvil",
+        "details" : {
+          "developer" : "Ubisoft Montreal",
+          "platforms" : [ "PC", "PlayStation", "Xbox" ]
+        }
+      }, {
+        "id" : 6,
+        "publisher" : "Sony Interactive Entertainment",
+        "title" : "Marvel's Spider-Man",
+        "releaseYear" : 2018,
+        "engine" : "Insomniac Engine",
+        "details" : {
+          "developer" : "Insomniac Games",
+          "platforms" : [ "PlayStation" ]
+        }
+      } ]
+    }
+  } ]
+}

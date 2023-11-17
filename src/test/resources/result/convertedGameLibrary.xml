@@ -1,0 +1,122 @@
+<library>
+  <game id="0">
+    <publisher>Supergiant Games</publisher>
+    <title>Hades</title>
+    <releaseYear>2020</releaseYear>
+    <engine>MonoGame</engine>
+    <details>
+      <developer>Supergiant Games</developer>
+      <genre>Action RPG</genre>
+      <platforms>
+        <platform>PC</platform>
+        <platform>Nintendo Switch</platform>
+        <platform>PlayStation</platform>
+        <platform>Xbox</platform>
+      </platforms>
+    </details>
+  </game>
+  <game id="1">
+    <publisher>Electronic Arts</publisher>
+    <title>Titanfall 2</title>
+    <releaseYear>2016</releaseYear>
+    <engine>Source</engine>
+    <details>
+      <developer>Respawn Entertainment</developer>
+      <genre>First-Person Shooter</genre>
+      <platforms>
+        <platform>PC</platform>
+        <platform>PlayStation</platform>
+        <platform>Xbox</platform>
+      </platforms>
+    </details>
+  </game>
+  <game id="2">
+    <publisher>Blizzard Entertainment</publisher>
+    <title>Overwatch</title>
+    <releaseYear>2016</releaseYear>
+    <engine>Tank Engine</engine>
+    <details>
+      <developer>Blizzard Entertainment</developer>
+      <genre>First-Person Shooter</genre>
+      <platforms>
+        <platform>PC</platform>
+        <platform>PlayStation</platform>
+        <platform>Xbox</platform>
+      </platforms>
+    </details>
+  </game>
+  <game id="3">
+    <publisher>ZA/UM</publisher>
+    <title>Disco Elysium</title>
+    <releaseYear>2019</releaseYear>
+    <engine>Unity</engine>
+    <details>
+      <developer>ZA/UM</developer>
+      <genre>RPG</genre>
+      <platforms>
+        <platform>PC</platform>
+        <platform>PlayStation</platform>
+        <platform>Xbox</platform>
+      </platforms>
+    </details>
+  </game>
+  <game id="4">
+    <publisher>Ubisoft</publisher>
+    <title>Assassin's Creed Unity</title>
+    <releaseYear>2014</releaseYear>
+    <engine>Anvil</engine>
+    <details>
+      <developer>Ubisoft Montreal</developer>
+      <genre>Action-Adventure</genre>
+      <platforms>
+        <platform>PC</platform>
+        <platform>PlayStation</platform>
+        <platform>Xbox</platform>
+      </platforms>
+    </details>
+  </game>
+  <game id="5">
+    <publisher>tinyBuild</publisher>
+    <title>Pathologic 2</title>
+    <releaseYear>2019</releaseYear>
+    <engine>Unity</engine>
+    <details>
+      <developer>Ice-Pick Lodge</developer>
+      <genre>RPG</genre>
+      <platforms>
+        <platform>PC</platform>
+        <platform>PlayStation</platform>
+        <platform>Xbox</platform>
+      </platforms>
+    </details>
+  </game>
+  <game id="6">
+    <publisher>Sony Interactive Entertainment</publisher>
+    <title>Marvel's Spider-Man</title>
+    <releaseYear>2018</releaseYear>
+    <engine>Insomniac Engine</engine>
+    <details>
+      <developer>Insomniac Games</developer>
+      <genre>Action-Adventure</genre>
+      <platforms>
+        <platform>PlayStation</platform>
+      </platforms>
+    </details>
+  </game>
+  <game id="7">
+    <publisher>Annapurna Interactive</publisher>
+    <title>Neon White</title>
+    <releaseYear>2022</releaseYear>
+    <engine>Unity</engine>
+    <details>
+      <developer>Angel Matrix</developer>
+      <genre>First-Person Shooter</genre>
+      <platforms>
+        <platform>PC</platform>
+        <platform>Nintendo Switch</platform>
+        <platform>PlayStation</platform>
+        <platform>Xbox</platform>
+      </platforms>
+    </details>
+  </game>
+</library>
