@@ -1,10 +1,15 @@
 package structure.xml;
 
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
+
 import java.util.List;
 
 public class DetailsXML {
     private String developer;
     private String genre;
+    @JacksonXmlElementWrapper(localName = "platforms")
+    @JacksonXmlProperty(localName = "platform")
     private List<String> platforms;
 
     public String getDeveloper() {
