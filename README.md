@@ -1,8 +1,10 @@
 # FileConverterService
 ---
 ## Описание
+
 Программа для конвертации файла XML в JSON и JSON в XML.
 Для сериализации и десериализации файлов использовалась библиотека [Jackson](https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml).
+
 ---
 ## Работа с программой
 Для работы с программой нужно зайти из командной строки в корень ее репозитория, затем для нужного преобразования ввести:
