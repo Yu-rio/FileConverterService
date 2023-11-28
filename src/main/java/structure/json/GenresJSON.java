@@ -1,13 +1,21 @@
 package structure.json;
 
+
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import java.util.List;
 
+import static com.fasterxml.jackson.annotation.JsonTypeInfo.As.WRAPPER_OBJECT;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 public class GenresJSON {
-    private List<GenreWrapperJSON> genres;
-    public List<GenreWrapperJSON> getGenres() {
-        return genres;
-    }
-    public void setGenres(List<GenreWrapperJSON> genres) {
-        this.genres = genres;
-    }
+    @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = WRAPPER_OBJECT)
+    private List<GenreJSON> genres;
 }

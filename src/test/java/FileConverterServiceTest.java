@@ -1,5 +1,4 @@
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.ValueSource;
+import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -9,12 +8,12 @@ import static converters.JSONToXMLConverter.convertJsonToXml;
 import static converters.XMLToJSONConverter.convertXmlToJson;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class  FileConverterServiceTest{
-    @ParameterizedTest
-    @ValueSource(strings = {"src/test/resources/result/convertedGameLibrary.json"})
-    void testXmlToJson(String pathName) throws IOException {
+class FileConverterServiceTest {
+    @Test
+    void testXmlToJson() throws IOException {
         String pathXmlFile = "src/test/resources/GameLibrary.xml";
         String pathJsonFile = "src/test/resources/GameLibrary.json";
+        String pathName = "src/test/resources/result/convertedGameLibrary.json";
         convertXmlToJson(pathXmlFile, pathName);
         Path pathNameOriginalFile = Path.of(pathJsonFile);
         Path pathNameConvertedFile = Path.of(pathName);
@@ -25,11 +24,11 @@ class  FileConverterServiceTest{
         assertEquals(contentOriginalFile, contentConvertedFile);
     }
 
-    @ParameterizedTest
-    @ValueSource(strings = {"src/test/resources/result/convertedGameLibrary.xml"})
-    void testJsonToXml(String pathName) throws IOException {
+    @Test
+    void testJsonToXml() throws IOException {
         String pathXmlFile = "src/test/resources/GameLibrary.xml";
         String pathJsonFile = "src/test/resources/GameLibrary.json";
+        String pathName = "src/test/resources/result/convertedGameLibrary.xml";
         convertJsonToXml(pathJsonFile, pathName);
         Path pathNameOriginalFile = Path.of(pathXmlFile);
         Path pathNameConvertedFile = Path.of(pathName);

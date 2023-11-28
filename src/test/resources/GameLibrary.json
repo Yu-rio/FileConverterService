@@ -25,6 +25,41 @@
     },
     {
       "genre": {
+        "name": "Action-Adventure",
+        "games": [
+          {
+            "id": 4,
+            "publisher": "Ubisoft",
+            "title": "Assassin's Creed Unity",
+            "releaseYear": 2014,
+            "engine": "Anvil",
+            "details": {
+              "developer": "Ubisoft Montreal",
+              "platforms": [
+                "PC",
+                "PlayStation",
+                "Xbox"
+              ]
+            }
+          },
+          {
+            "id": 6,
+            "publisher": "Sony Interactive Entertainment",
+            "title": "Marvel's Spider-Man",
+            "releaseYear": 2018,
+            "engine": "Insomniac Engine",
+            "details": {
+              "developer": "Insomniac Games",
+              "platforms": [
+                "PlayStation"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "genre": {
         "name": "First-Person Shooter",
         "games": [
           {
@@ -107,41 +142,6 @@
                 "PC",
                 "PlayStation",
                 "Xbox"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "genre": {
-        "name": "Action-Adventure",
-        "games": [
-          {
-            "id": 4,
-            "publisher": "Ubisoft",
-            "title": "Assassin's Creed Unity",
-            "releaseYear": 2014,
-            "engine": "Anvil",
-            "details": {
-              "developer": "Ubisoft Montreal",
-              "platforms": [
-                "PC",
-                "PlayStation",
-                "Xbox"
-              ]
-            }
-          },
-          {
-            "id": 6,
-            "publisher": "Sony Interactive Entertainment",
-            "title": "Marvel's Spider-Man",
-            "releaseYear": 2018,
-            "engine": "Insomniac Engine",
-            "details": {
-              "developer": "Insomniac Games",
-              "platforms": [
-                "PlayStation"
               ]
             }
           }
