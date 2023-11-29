@@ -20,7 +20,7 @@ public class XMLToJSONConverter {
     private static List<GameXML> readFileXML(String pathName) throws IOException {
         XmlMapper xmlMapper = new XmlMapper();
         File file = new File(pathName);
-        return xmlMapper.readValue(file, new TypeReference<List<GameXML>>() {
+        return xmlMapper.readValue(file, new TypeReference<>() {
         });
     }
 

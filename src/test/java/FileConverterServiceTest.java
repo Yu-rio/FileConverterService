@@ -1,5 +1,8 @@
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import org.junit.jupiter.api.Test;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -15,13 +18,10 @@ class FileConverterServiceTest {
         String pathJsonFile = "src/test/resources/GameLibrary.json";
         String pathName = "src/test/resources/result/convertedGameLibrary.json";
         convertXmlToJson(pathXmlFile, pathName);
-        Path pathNameOriginalFile = Path.of(pathJsonFile);
-        Path pathNameConvertedFile = Path.of(pathName);
-        String contentOriginalFile = Files.readString(pathNameOriginalFile);
-        String contentConvertedFile = Files.readString(pathNameConvertedFile);
-        contentOriginalFile = contentOriginalFile.replaceAll("\\s", "");
-        contentConvertedFile = contentConvertedFile.replaceAll("\\s", "");
-        assertEquals(contentOriginalFile, contentConvertedFile);
+        File pathNameOriginalFile = new File(pathJsonFile);
+        File pathNameConvertedFile = new File(pathName);
+        ObjectMapper mapper = new ObjectMapper();
+        assertEquals(mapper.readTree(pathNameOriginalFile), mapper.readTree(pathNameConvertedFile));
     }
 
     @Test
@@ -30,12 +30,9 @@ class FileConverterServiceTest {
         String pathJsonFile = "src/test/resources/GameLibrary.json";
         String pathName = "src/test/resources/result/convertedGameLibrary.xml";
         convertJsonToXml(pathJsonFile, pathName);
-        Path pathNameOriginalFile = Path.of(pathXmlFile);
-        Path pathNameConvertedFile = Path.of(pathName);
-        String contentOriginalFile = Files.readString(pathNameOriginalFile);
-        String contentConvertedFile = Files.readString(pathNameConvertedFile);
-        contentOriginalFile = contentOriginalFile.replaceAll("\\s", "");
-        contentConvertedFile = contentConvertedFile.replaceAll("\\s", "");
-        assertEquals(contentOriginalFile, contentConvertedFile);
+        File pathNameOriginalFile = new File(pathXmlFile);
+        File pathNameConvertedFile = new File(pathName);
+        XmlMapper xmlMapper = new XmlMapper();
+        assertEquals(xmlMapper.readTree(pathNameOriginalFile), xmlMapper.readTree(pathNameConvertedFile));
     }
 }

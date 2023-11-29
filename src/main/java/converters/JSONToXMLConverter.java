@@ -20,7 +20,7 @@ public class JSONToXMLConverter {
     private static GenresJSON readFileJSON(String pathName) throws IOException {
         JsonMapper jsonMapper = new JsonMapper();
         File file = new File(pathName);
-        return jsonMapper.readValue(file, new TypeReference<GenresJSON>() {
+        return jsonMapper.readValue(file, new TypeReference<>() {
         });
     }
 
